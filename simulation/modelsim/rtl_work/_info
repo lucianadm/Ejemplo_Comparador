@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\LSC\Desktop\Ejemplo_Comparador\simulation\modelsim
+Ecomparador
+Z1 w1729276161
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\LSC\Desktop\Ejemplo_Comparador\simulation\modelsim
+Z5 8C:/Users/LSC/Desktop/Ejemplo_Comparador/comparador.vhd
+Z6 FC:/Users/LSC/Desktop/Ejemplo_Comparador/comparador.vhd
+l0
+L4
+Va^G6li[80j[AR0LDe>Nz21
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1729277707.461000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/LSC/Desktop/Ejemplo_Comparador/comparador.vhd|
+Z10 !s107 C:/Users/LSC/Desktop/Ejemplo_Comparador/comparador.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 [6z8zHYP0EMHo71=nKTJi3
+!i10b 1
+Aejemplo
+R2
+R3
+DEx4 work 10 comparador 0 22 a^G6li[80j[AR0LDe>Nz21
+l14
+L13
+V^D@k@6K[L5oj69:8kUU1@2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 SBeZ2Y4;6Kn=jFgHD:WAR2
+!i10b 1
+Ecomparador_tb
+Z13 w1729277479
+R2
+R3
+R4
+Z14 8C:/Users/LSC/Desktop/Ejemplo_Comparador/comparador_tb.vhd
+Z15 FC:/Users/LSC/Desktop/Ejemplo_Comparador/comparador_tb.vhd
+l0
+L4
+Vj;8@b5X=eRIOfHl;Je_c?2
+!s100 `D=aB5^^U53n[M<=U@VRZ3
+R7
+31
+!i10b 1
+Z16 !s108 1729277707.586000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/LSC/Desktop/Ejemplo_Comparador/comparador_tb.vhd|
+Z18 !s107 C:/Users/LSC/Desktop/Ejemplo_Comparador/comparador_tb.vhd|
+R11
+R12
+Aejcomb
+R2
+R3
+DEx4 work 13 comparador_tb 0 22 j;8@b5X=eRIOfHl;Je_c?2
+l24
+L6
+V:G34dU^<QYb=8j@^>GGiO0
+!s100 fH3ajaTY[WYffGjQf_g922
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

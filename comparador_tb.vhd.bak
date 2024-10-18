@@ -1,0 +1,52 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity comparador_tb is end comparador_tb;
+
+architecture ejcomb of D_FF_tb is 
+component D_FF
+port (J,K,CLOCK,SET,RESET: in std_logic;
+		Q, notQ: out std_logic);
+end component;
+
+signal K: std_logic;
+signal J: std_logic;
+signal SET: std_logic;
+signal RESET: std_logic;
+signal CLOCK: std_logic;
+signal Q: std_logic;
+signal notQ: std_logic;
+
+--Clock period definition
+constant clock_period : time := 20ns;
+
+
+begin
+uut: D_FF port map (J=>J,
+K=>K,
+CLOCK=>CLOCK,
+SET=>SET,
+RESET=>RESET,
+Q=>Q,
+notQ=>notQ);
+
+
+ --Clock process definitions
+clock_process:process
+	begin
+		CLOCK<='0';
+		wait for clock_period/2;
+		CLOCK<='1';
+		wait for clock_period/2;
+end process;
+
+stim_proc : process 
+begin 
+
+J <= '0'; wait for 50ns;
+RESET <= '1'; wait for 50ns;
+J <= '1'; reset <= '0'; wait for 50ns;
+J <= '0';  wait for 50ns;
+wait;
+end process;
+end;
